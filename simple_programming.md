@@ -1,4 +1,4 @@
-[The Challenge]
+## The Challenge
 
 Name: Simple Programming
 
@@ -6,7 +6,7 @@ Can you help me? I need to know how many lines there are where the number of 0's
 
 source: https://ctflearn.com/challenge/174
 
-[The Solution]
+## The Solution
 
 ```bash
 #! /bin/bash

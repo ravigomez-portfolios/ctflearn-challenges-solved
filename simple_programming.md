@@ -17,9 +17,9 @@ COUNT=0
 
 while read l; do
   ZEROS=${l//[^0]}
-  UNS=${l//[^1]}
+  ONES=${l//[^1]}
   
-  if [[ ($((${#ZEROS} % 3)) == 0) || ($((${#UNS} % 2)) == 0) ]]
+  if [[ ($((${#ZEROS} % 3)) == 0) || ($((${#ONES} % 2)) == 0) ]]
   then
     COUNT=$(($COUNT + 1))
   fi
